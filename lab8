@@ -1,0 +1,15 @@
+<?php header('Content-Type: text/html; charset=utf-8');?>
+<html>
+<head>
+ <title>
+    2
+</title>
+</head>
+<body>
+        <?php
+            $days = array( 1 => "Понедельник" ,"Вторник","Среда","Четверг" ,"Пятница", "Суббота","Воскресенье");
+             echo $days[date ("N")]
+        ?>
+        </body>
+</html>
+
